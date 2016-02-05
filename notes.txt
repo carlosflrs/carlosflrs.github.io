@@ -1,0 +1,2 @@
+1. Make hidden button color white. (improve it too).
+2. Fix font on resume.

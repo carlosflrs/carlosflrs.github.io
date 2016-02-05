@@ -1,0 +1,49 @@
+Carlos Flores
+
+Email: carlos.flrs@berkeley.edu
+Github: carlosflrs
+Phone: (916) 719-8359
+Web: carlos.codes
+
+Education
+B.A. in computer science at University oF CaliFornia, Berkeley
+Graduation: Fall 2016
+
+Projects
+Graph API - trip Finder (Java)
+Wrote a graph api used to create a trip finder using vertices as locations and edges as 
+roads. i Worked With variations of depth-first search and breadth-first search imple-
+mentations as Well as Dijkstra’s algorithm and a* (a-star). 
+
+File Compressor (Java)
+made a program that compresses files and directories using huffman encoding algorithms.
+
+CPU, assembler and linker (logism, mips, C)
+Worked on different proJects With the goal to simulate a computer using a risc-v processor and
+build each part of the process to interpret binary instructions.
+
+Neural network optimization (C)
+Worked on optimizing an existing neural netWork by using cache blocking techniQues, and 
+extensions such as sse intrinsics and intel avx.
+
+Skills: Python, Javascript, html, css, C, postrgreSQL, Java, MIPS, spark, OpenMP, SSE.
+
+Experience:
+E-marketing intern at Fanatics inc. (June 2015 - August 2015)
+I interned for an e-commerce sports retail company that poWers hundreds of Websites. i 
+Worked on different proJects, a sales visualization using cartodb (a maps platform) and 
+generating keyWord suggestions through google’s adWords api and keyWord Query 
+reports.
+
+Undergraduate student instructor For Cs10 (December 2014 - present)
+I work as a ta for cs10 (the beauty and Joy of computing) at Berkeley. my duties 
+involve leading lab sections as Well as Weekly discussion. cs10 is a class designed 
+for non-majors to explore computer science. We teach students using a programming 
+language called snap! (similar to mit’s scratch). it is exciting to be part of a team that 
+shapes a class currently taken by thousands of people through edX. 
+
+Classes
+CS188: Artificial Intelligence
+CS170: Algorithms
+CS61B: Data Structures and Algorithms
+CS61C: Machine Structures
