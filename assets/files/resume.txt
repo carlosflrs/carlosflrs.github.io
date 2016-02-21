@@ -29,6 +29,11 @@ extensions such as sse intrinsics and intel avx.
 Skills: Python, Javascript, html, css, C, postrgreSQL, Java, MIPS, spark, OpenMP, SSE.
 
 Experience:
+
+Undergraduate student instructor For CS61B (January 2016 - present)
+I work as ta for cs61b. I lead lab and discussion. I enjoy my job very much, this has been
+one of my favorite classes here at berkeley and I'm very glad I get to teach it.
+
 E-marketing intern at Fanatics inc. (June 2015 - August 2015)
 I interned for an e-commerce sports retail company that poWers hundreds of Websites. i 
 Worked on different proJects, a sales visualization using cartodb (a maps platform) and 
@@ -43,7 +48,6 @@ language called snap! (similar to mit’s scratch). it is exciting to be part of
 shapes a class currently taken by thousands of people through edX. 
 
 Classes
+CS189: Machine Learning
 CS188: Artificial Intelligence
 CS170: Algorithms
-CS61B: Data Structures and Algorithms
-CS61C: Machine Structures

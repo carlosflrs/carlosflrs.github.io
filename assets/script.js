@@ -43,20 +43,21 @@ function main() {
         $("#random-color").css({"background-color":color})
         $("#content-info").css({"background-color":color});
         $("html, body").css({"background-color":color});
-        window.open("assets/img/corchos.JPG", "_blank");
     });
-    $("#resume").hover(function () {
-        $("#resume-links").css({display:"block"});
-    }, function () {
-        $("#resume-links").css({display:"none"});
-    });
-    $("#resume-links").hover(function () {
-        $("#resume-links").css({display:"block"});
-    }, function () {
-        $("#resume-links").css({display:"none"});
-    });
-    $("#download").click(function () {
-        window.open("assets/files/carlos_flores_resume_web.pdf", "_blank");});
+
+    //$("#resume").hover(function () {
+        //$("#resume-links").css({display:"block"});
+    //}, function () {
+        //$("#resume-links").css({display:"none"});
+    //});
+    //$("#resume-links").hover(function () {
+        //$("#resume-links").css({display:"block"});
+    //}, function () {
+        //$("#resume-links").css({display:"none"});
+    //});
+    //
+    $("#resume").click(function () {
+        window.open("assets/files/carlos_flores_resume.pdf", "_blank");});
 }
 function changeTab(div) {
     var id = $(div).attr('id').split('-')[1];

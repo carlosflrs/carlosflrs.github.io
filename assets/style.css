@@ -24,7 +24,7 @@ html, body{
     height:30px;
     font-size:12px;
     font-family: 'Sintony', sans-serif;
-    letter-spacing:2px;
+    letter-spacing:1px;
     outline:none;
     border:none;
     cursor:pointer;
@@ -72,7 +72,7 @@ html, body{
     font-size: 24px;
     font-family: 'Sintony', sans-serif;
     font-weight: lighter;
-    letter-spacing: 28px;
+    letter-spacing: 25px;
     white-space: nowrap;
 }
 .blinking-cursor {
@@ -148,13 +148,32 @@ html, body{
     border:none;
     margin-top: 2px;
 }
+
+#links {
+    padding-right:20px;
+    border-color: rgb(248,248,248);
+    border-style: solid;
+    border-top:none;
+    border-left:none;
+    border-bottom:none;
+    border-width:1px;
+}
+#bio {
+    padding-left:25px;
+    color:rgb(248, 248, 248);
+    width:300px;
+    font-family: 'Sintony', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
 #section-info {
     position:relative;
+    display:inline-block;
     width:150px;
-    height: 200px;
+    height: 300px;
     top:50%;
     left: 50%;
-    margin-left: -75px;
+    margin-left: -250px;
     margin-top: -100px;
 }
 .infolink {
