@@ -150,7 +150,6 @@ html, body{
 }
 
 #links {
-    padding-right:20px;
     border-color: rgb(248,248,248);
     border-style: solid;
     border-top:none;
@@ -159,7 +158,8 @@ html, body{
     border-width:1px;
 }
 #bio {
-    padding-left:25px;
+    padding-left:45px;
+    padding-bottom:10px;
     color:rgb(248, 248, 248);
     width:300px;
     font-family: 'Sintony', sans-serif;
