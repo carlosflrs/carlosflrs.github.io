@@ -27,8 +27,8 @@ function main() {
     $('.nav-item').click(function () {changeTab(this);});
     $("#email").click(function () {
         window.location ="mailto:carlos.flrs@berkeley.edu";});
-    $("#web").click(function () {
-        window.open("assets/img/carlos_flores_resume_web.png", "_blank");});
+    //$("#web").click(function () {
+        //window.open("assets/files/carlos_flores_resume_web.png", "_blank");});
     $("#github").click(function () {
         window.open("http://github.com/carlosflrs", "_blank");});
     $("#linkedin").click(function () {
@@ -44,6 +44,7 @@ function main() {
         $("#content-info").css({"background-color":color});
         $("html, body").css({"background-color":color});
     });
+    
 
     //$("#resume").hover(function () {
         //$("#resume-links").css({display:"block"});
