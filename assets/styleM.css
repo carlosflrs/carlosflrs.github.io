@@ -3,7 +3,7 @@ html, body{
     height:100%;
     overflow:hidden;
     margin:0px;
-    background-color:#151718;
+    background-color:#EBEBEB;
 }
 #canvas {
     background-color:#151718;
@@ -29,6 +29,7 @@ html, body{
     font-size: 5vw;
     letter-spacing: 11px;
     white-space: nowrap;
+    color:#363636;
 }
 .nav {
     position: absolute;
@@ -61,7 +62,7 @@ html, body{
 .blinking-cursor {
     font-weight: 100;
     font-size: 30px;
-    color: white;
+    color: #363636;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
     -ms-animation: 1s blink step-end infinite;
@@ -73,7 +74,7 @@ html, body{
     color: transparent;
   }
   50% {
-    color: white;
+    color: #363636;
   }
 }
 @-moz-keyframes "blink" {
@@ -81,7 +82,7 @@ html, body{
     color: transparent;
   }
   50% {
-    color: white;
+    color: #363636;
   }
 }
 @-webkit-keyframes "blink" {
@@ -89,7 +90,7 @@ html, body{
     color: transparent;
   }
   50% {
-    color: white;
+    color: #363636;
   }
 }
 @-ms-keyframes "blink" {
@@ -97,7 +98,7 @@ html, body{
     color: transparent;
   }
   50% {
-    color: white;
+    color: #363636;
   }
 }
 @-o-keyframes "blink" {
@@ -105,6 +106,6 @@ html, body{
     color: transparent;
   }
   50% {
-    color: white;
+    color: #363636;
   }
 }

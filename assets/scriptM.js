@@ -4,7 +4,7 @@ function main () {
     container = document.getElementById( 'canvas' );
     document.body.appendChild( container );
     renderer = new THREE.WebGLRenderer({alpha:true});
-    renderer.setClearColor(0x151718, 1);
+    renderer.setClearColor(0xEBEBEB, 1);
     renderer.setSize( CANVAS_WIDTH, CANVAS_HEIGHT );
     container.appendChild( renderer.domElement );
     scene = new THREE.Scene();
@@ -16,7 +16,7 @@ function main () {
     var indicesOfFaces = [2,1,0,0,3,2,0,4,7,7,3,0,0,1,5,5,4,0,1,2,6,6,5,1,
         2,3,7,7,6,2,4,5,6,6,7,4];
     var geometry = new THREE.PolyhedronGeometry(verticesOfCube, indicesOfFaces, 7, 2);
-    material = new THREE.MeshBasicMaterial({color : 0x1588c8, wireframe: true});
+    material = new THREE.MeshBasicMaterial({color : 0x363636, wireframe: true});
     mesh = new THREE.Mesh(geometry, material);
     scene.add(mesh);
     animate();
@@ -32,7 +32,23 @@ function main () {
         $(this).addClass("active");
     }, function () {
         $(this).removeClass("active");
-    });
+    }); 
+    
+    
+//    function typeText(letters_list, index, text) {
+//        if (index > letters_list.length) {
+//            return;
+//        }
+//        text += letters[index];
+//        console.log(text);
+//        index = index + 1;
+//        $("#name span").html(text);
+//        setTimeout(typeText(letters_list, index, text),10000);
+//    }
+//    letters = "CarlosFlores".split("");
+//    text = "";
+//    typeText(letters, 0, text);
+    
 }
 function animate() {
     requestAnimationFrame(animate);
