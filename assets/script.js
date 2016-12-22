@@ -8,7 +8,7 @@ function main() {
     });
     
     $("#resume").click(function () {
-        window.open("assets/files/carlos_flores_resume.pdf", "_blank");
+        window.open("assets/files/carlos_flores_resume_interactive.pdf", "_blank");
     });
     
     $("#close").click(function () {
