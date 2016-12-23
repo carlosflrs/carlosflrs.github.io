@@ -23,7 +23,7 @@ function main () {
     $("#nav-github").click(function () {
         window.open("http://github.com/carlosflrs", "_blank");});
     $("#nav-resume").click(function () {
-        window.open("assets/files/carlos_flores_resume.pdf", "_blank");});
+        window.open("assets/files/carlos_flores_resume_interactive2.pdf", "_blank");});
     $("#nav-email").click(function () {
         window.location = "mailto:carlos.flrs@berkeley.edu";});
     $("#nav-linkedin").click(function () {

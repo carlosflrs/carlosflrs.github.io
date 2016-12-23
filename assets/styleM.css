@@ -4,6 +4,8 @@ html, body{
     overflow:hidden;
     margin:0px;
     background-color:#151718;
+    font-family: 'Space Mono', monospace;
+
 }
 #canvas {
     background-color:#151718;

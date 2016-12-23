@@ -4,7 +4,8 @@ html, body{
     overflow:hidden;
     margin:0px;
     background-color: #282829;
-    font-family: Consolas;
+    /*font-family: Consolas;*/
+    font-family: 'Space Mono', monospace;
 }
 
 #container {
