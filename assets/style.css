@@ -51,7 +51,6 @@ html, body{
     margin-top: -60px;
 }
 
-
 #email {
     width: 120px;
     height: 120px;
@@ -66,7 +65,7 @@ html, body{
     height: 120px;
     left: 50%;
     margin-left: -60px;
-    bottom:0;
+    bottom: 0;
 }
 
 #resume-text {
@@ -95,6 +94,10 @@ html, body{
     left: 50%;
     margin-top: -50px;
     margin-left: -30px;
+}
+
+.lin {
+    top: 55%;
 }
 
 #intro-text {
