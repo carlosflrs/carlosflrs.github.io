@@ -8,16 +8,26 @@ html, body{
     color: #0f2a3c;
 }
 
-#container {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-}
-
 a:link { 
     color: #014943;
 }
 
 a:visited {
     color: #014943;
+}
+
+#container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+img.animated-gif{
+    width: 128px;
+    height: auto;
+}
+
+#ryu-container {
+    position: fixed;
+    bottom: 0;
 }
